@@ -19,5 +19,11 @@ Which includes:
 where all before template.sbt is the same. "template.sbt" should be in your currect directory (you got this from step 2).  Gaps default 10 is fine. -l is for evidence of linkage between reads, so for mate pair experiment disicgn, we use paired-ends option. The -j option needs the correct Genus and species name (in our case Polybia). -i is for our genome fasta file, -f is for our gff3 file. The output is stored in name specified after the -o flag. -Z is required for working directory (I think).
 
 
+Use GAG 
+
+1. Download GAG from https://genomeannotation.github.io/GAG/
+2. Run  the script: `~/Downloads/genomeannotation-GAG-997e384/gag.py --fasta P.occidentalis.RM_bactfilt.min500.euk.noNs.fasta --gff P.occidentalis.evm.consensus.annotation.v2a.gff3 --out gag_output --fix_terminal_ns`
+3. Now we have a genome compatible with NCBI. So we can upload it in the browser.
+
 B1. Start following these instructions: https://www.ncbi.nlm.nih.gov/genbank/eukaryotic_genome_submission/
 
