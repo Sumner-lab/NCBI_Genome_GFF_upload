@@ -21,7 +21,8 @@ where all before template.sbt is the same. "template.sbt" should be in your curr
 
 Use GAG 
 
-1. Download GAG from https://genomeannotation.github.io/GAG/
+1a. Check your GFF is valid :  http://genometools.org/cgi-bin/gff3validator.cgi
+1b. Download GAG from : https://genomeannotation.github.io/GAG/
 2. Run  the script: `~/Downloads/genomeannotation-GAG-997e384/gag.py --fasta P.occidentalis.RM_bactfilt.min500.euk.noNs.fasta --gff P.occidentalis.evm.consensus.annotation.v2a.gff3 --out gag_output --fix_terminal_ns`
 3. Now we have a genome compatible with NCBI. So we can upload it in the browser.
 
