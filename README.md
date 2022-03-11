@@ -13,13 +13,15 @@ Steps.
 1a. Create a Bioproject for your Genome and annotation: https://submit.ncbi.nlm.nih.gov/subs/bioproject/
 - Make sure to say publish at latest year possible. You need to click on year and choose 2026 or beyond, further possible.
 - For these steps, you need to have information about the species, isolate and grant info.
+- At biosample page, skip this and continue, we add the bisample after.
 
 1b. Then create a Biosample for the genome indivudal or pool that constituted the materiel the genome was made with. https://submit.ncbi.nlm.nih.gov/subs/biosample
+- For this we need information about the exact sample that was used to make the genome. E.g was it a haploid male, etc.
 
-1c. Download `table2asn` executable from NCBI : https://ftp.ncbi.nlm.nih.gov/asn1-converters/by_program/table2asn. For me this didn't work with the mac one, so I used the linux one and did it through myriad.
+2a. Download `table2asn` executable from NCBI : https://ftp.ncbi.nlm.nih.gov/asn1-converters/by_program/table2asn. For me this didn't work with the mac one, so I used the linux one and did it through myriad.
 Which includes:
 
-2. Filling in the NCBI Genbank submission form: https://submit.ncbi.nlm.nih.gov/genbank/template/submission/
+2b. Filling in the NCBI Genbank submission form: https://submit.ncbi.nlm.nih.gov/genbank/template/submission/
 
 3. Getting your genome fasta file in the correct format: https://www.ncbi.nlm.nih.gov/genbank/table2asn/#fsa
 
