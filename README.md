@@ -5,11 +5,9 @@ This page is to simplify the upload of data to NCBI.
 Uploading the genome (in fasta) and annotation in GFF (or GTF).
 
 **Prerequisites:**
-1. Cisco, make sure you have access to the RDS, if this is where the raw data are stored.
-
+a. Cisco, make sure you have access to the RDS, if this is where the raw data are stored.
 
 Steps. 
-
 1a. Create a Bioproject for your Genome and annotation: https://submit.ncbi.nlm.nih.gov/subs/bioproject/
 - Make sure to say publish at latest year possible. You need to click on year and choose 2026 or beyond, further possible.
 - For these steps, you need to have information about the species, isolate and grant info.
