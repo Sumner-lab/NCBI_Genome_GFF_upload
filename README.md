@@ -5,17 +5,21 @@ This page is to simplify the upload of data to NCBI.
 Uploading the genome (in fasta) and annotation in GFF (or GTF).
 
 **Prerequisites:**
-1. 
+1. Cisco, make sure you have access to the RDS, if this is where the raw data are stored.
 
 
 Steps. 
 
 1a. Create a Bioproject for your Genome and annotation: https://submit.ncbi.nlm.nih.gov/subs/bioproject/
+- Make sure to say publish at latest year possible. You need to click on year and choose 2026 or beyond, further possible.
+- For these steps, you need to have information about the species, isolate and grant info.
 
-1. Download `table2asn` executable from NCBI : https://ftp.ncbi.nlm.nih.gov/asn1-converters/by_program/table2asn. For me this didn't work with the mac one, so I used the linux one and did it through myriad.
+1b. Then create a Biosample for the genome indivudal or pool that constituted the materiel the genome was made with. https://submit.ncbi.nlm.nih.gov/subs/biosample
+
+1c. Download `table2asn` executable from NCBI : https://ftp.ncbi.nlm.nih.gov/asn1-converters/by_program/table2asn. For me this didn't work with the mac one, so I used the linux one and did it through myriad.
 Which includes:
 
-2. Filling in the submission form: https://submit.ncbi.nlm.nih.gov/genbank/template/submission/
+2. Filling in the NCBI Genbank submission form: https://submit.ncbi.nlm.nih.gov/genbank/template/submission/
 
 3. Getting your genome fasta file in the correct format: https://www.ncbi.nlm.nih.gov/genbank/table2asn/#fsa
 
