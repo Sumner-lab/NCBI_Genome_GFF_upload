@@ -10,6 +10,8 @@ Uploading the genome (in fasta) and annotation in GFF (or GTF).
 
 Steps. 
 
+1a. Create a Bioproject for your Genome and annotation: https://submit.ncbi.nlm.nih.gov/subs/bioproject/
+
 1. Download `table2asn` executable from NCBI : https://ftp.ncbi.nlm.nih.gov/asn1-converters/by_program/table2asn. For me this didn't work with the mac one, so I used the linux one and did it through myriad.
 Which includes:
 
