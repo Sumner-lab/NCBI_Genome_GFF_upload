@@ -16,10 +16,12 @@ Steps.
 1b. Then create a Biosample for the genome indivudal or pool that constituted the materiel the genome was made with. https://submit.ncbi.nlm.nih.gov/subs/biosample
 - For this we need information about the exact sample that was used to make the genome. E.g was it a haploid male, etc.
 
-2a. Download `table2asn` executable from NCBI : https://ftp.ncbi.nlm.nih.gov/asn1-converters/by_program/table2asn. For me this didn't work with the mac one, so I used the linux one and did it through myriad.
+2a. Download `table2asn` executable from NCBI : https://ftp.ncbi.nlm.nih.gov/asn1-converters/by_program/table2asn. For me this didn't work with the mac one, so I used the linux one and did it through myriad. And moved all my files to there.
+
 Which includes:
 
 2b. Filling in the NCBI Genbank submission form: https://submit.ncbi.nlm.nih.gov/genbank/template/submission/
+- this will output a file called template.sbt
 
 3. Getting your genome fasta file in the correct format: https://www.ncbi.nlm.nih.gov/genbank/table2asn/#fsa
 
